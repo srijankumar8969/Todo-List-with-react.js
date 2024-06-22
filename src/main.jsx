@@ -11,7 +11,7 @@ import Products from './components/pages/Products.jsx'
 
 const router= createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/' element= {<Layout />}>
+    <Route path='/Todo-List-with-react.js/' element= {<Layout />}>
       <Route path='' element={<Home />} />
       <Route path='About' element={<About />} />
       <Route path='Services' element={<Services />} />
@@ -22,6 +22,6 @@ const router= createBrowserRouter(
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <RouterProvider router={router} basename='/Todo-List-with-react.js' />
   </React.StrictMode>
 )

@@ -1,12 +1,12 @@
 {
-  "homepage": "https://srijankumar8969.github.io/TodoList-with-React/",
+  "homepage": "https://srijankumar8969.github.io/Todo-List-with-react.js",
   "name": "todolist",
-  "private": true,
+  "private": false,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "preload":"npm run build",
+    "predeploy":"npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
